@@ -1,0 +1,11 @@
+.side-nav .side-item{
+	list-style: none;
+}
+.side-link.active{
+    color: #000;
+}
+.side-link{
+	display: block;
+    padding: .3rem 0;
+    color: #adadad;
+}

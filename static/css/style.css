@@ -1,0 +1,63 @@
+html, body{
+	font-family: 'Noto Sans', sans-serif;
+}
+body{
+	height: 100vh;
+    overflow: hidden;
+}
+.w-100{
+	width: 100% !important;
+	height: 100vh;
+}
+.w-70{
+	width: 70% !important;
+	height: 100vh;
+}
+.w-30{
+	width: 30% !important;
+	height: 100vh;
+}
+.h-30{
+	height: 33vh;
+	margin-right: 10%;
+}
+.h-70{
+	height: 67vh;
+	overflow: overlay;
+	margin-right: 10%;
+}
+.float-left{
+	float: left;
+}
+.p-0{
+	padding: 0px !important;
+}
+.m-0{
+	margin: 0px !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+	border-radius: 5px;
+	margin-top: 10px;
+	height: 170px;
+    width: 32%;
+    background: #f1f1f1;
+    float: left;
+}
+.card-center {
+	border-radius: 5px;
+	margin-top: 10px;
+	height: 170px;
+    width: 32%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #f1f1f1;
+    float: left;
+}
+::-webkit-scrollbar {
+      width: 0px;
+}

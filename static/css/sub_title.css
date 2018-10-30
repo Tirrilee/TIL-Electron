@@ -1,0 +1,44 @@
+.nav-tabs .nav-link{
+	color: #adadad;
+}
+.nav-tabs .nav-link.active {
+	color: #000;
+	border-bottom:3px solid #9bbaff;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#sub_title {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #9bbaff;
+}
+
+.badge-pill {
+    padding-right: .5em;
+    padding-left: .5em;
+    border-radius: 10rem;
+}
