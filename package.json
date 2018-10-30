@@ -1,0 +1,19 @@
+{
+  "name": "til-memo",
+  "version": "1.0.0",
+  "description": "Today I learned Meme App by Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tirrilee/TIL-Electron.git"
+  },
+  "author": "Tirrilee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tirrilee/TIL-Electron/issues"
+  },
+  "homepage": "https://github.com/Tirrilee/TIL-Electron#readme"
+}
