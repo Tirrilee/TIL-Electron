@@ -6,6 +6,7 @@
 	border-bottom:3px solid #9bbaff;
 }
 .nav-link {
+    cursor: pointer;
     display: block;
     padding: .5rem 1rem;
 }
@@ -18,7 +19,7 @@
     margin-bottom: 0;
     list-style: none;
 }
-#sub_title {
+#SubTitle {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #dee2e6;
 }

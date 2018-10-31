@@ -3,9 +3,11 @@
 }
 .side-link.active{
     color: #000;
+    transition: 1s;
 }
 .side-link{
 	display: block;
     padding: .3rem 0;
     color: #adadad;
+    cursor: pointer;
 }

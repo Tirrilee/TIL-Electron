@@ -7,23 +7,22 @@
     <link rel="stylesheet" type="text/css" href="./static/css/sidemenu.css">
     <link rel="stylesheet" type="text/css" href="./static/css/sub_title.css">
     <link rel="stylesheet" type="text/css" href="./static/css/float_btn.css">
-
-
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   </head>
+
   <body class="m-0">
     <div class="w-100">
       <div class="w-30 float-left">
         <div>
           <ul class="side-nav">
             <li class="side-item">
-              <a class="side-link active" href="#">Title</a>
+              <a class="side-link active">Title</a>
             </li>
             <li class="side-item">
-              <a class="side-link" href="#">Title</a>
+              <a class="side-link">Title1</a>
             </li>
             <li class="side-item">
-              <a class="side-link" href="#">Title</a>
+              <a class="side-link">Title2</a>
             </li>
           </ul>
         </div>
@@ -33,28 +32,34 @@
       </div>
       <div class="w-70 float-left">
         <div class="h-30">
-          <h1>Title</h1>
-          <p>description</p>
+          <h1 id="MainTitle">Title</h1>
+          <p id="Description">description</p>
           <div>
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active">
                   <span class="badge badge-pill">10</span>
-                  Sub Title
+                  <span class="text">Sub Title</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link">
+                  <span class="text">Menu</span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link">
+                  <span class="text">Menu</span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link">
+                  <span class="text">Menu</span>
+                </a>
               </li>
             </ul>
           </div>
-          <h3 id="sub_title">Sub Title</h3>
+          <h3 id="SubTitle">Sub Title</h3>
         </div>
         <div class="h-70">
           <div class="w-100">
@@ -71,9 +76,16 @@
         </div>
       </div>
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/SelectTitle.js"></script>
+    <script src="./static/js/SelectMenu.js"></script>
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
+
     </script>
+    
   </body>
 </html>
