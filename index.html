@@ -11,6 +11,7 @@
   </head>
 
   <body class="m-0">
+    <!-- Content -->
     <div class="w-100">
       <div class="w-30 float-left">
         <div>
@@ -73,11 +74,15 @@
             <div class="card-center"></div>
             <div class="card"></div>
           </div>
+          <span id="FlotBtn-sm">
+            <img src="./images/icons8-plus-24.png" width="35px">
+          </span>
         </div>
       </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./static/js/jquery.min.js"></script>
     <script src="./static/js/SelectTitle.js"></script>
     <script src="./static/js/SelectMenu.js"></script>
@@ -86,6 +91,10 @@
       require('./renderer.js')
 
     </script>
-    
+    <script>
+      $("#FlotBtn-sm").click(function(){
+        swal("Hello world!")
+      })
+    </script>
   </body>
 </html>

@@ -7,7 +7,7 @@ body{
 }
 .w-100{
 	width: 100% !important;
-	height: 100vh;
+	height: 100%;
 }
 .w-70{
 	width: 70% !important;
@@ -42,7 +42,7 @@ a {
 
 .card {
 	border-radius: 5px;
-	margin-top: 10px;
+	margin:5px 0px;
 	height: 170px;
     width: 32%;
     background: #f1f1f1;
@@ -50,7 +50,7 @@ a {
 }
 .card-center {
 	border-radius: 5px;
-	margin-top: 10px;
+	margin:5px 0px;
 	height: 170px;
     width: 32%;
     margin-left: 2%;

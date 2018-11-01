@@ -21,3 +21,14 @@
     top: -3px;
     position: absolute;
 }
+#FlotBtn-sm{
+    background: rgb(187, 231, 245);
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 4vh;
+    right: 8%;
+    box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
